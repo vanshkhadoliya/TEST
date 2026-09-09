@@ -1,0 +1,161 @@
+{
+  "project_title": "Vansh Khadoliya | Creative Portfolio & Musician Signal",
+  "app_type": "portfolio",
+  "theme": "dark_cyber_analog",
+  "user_requested_edits": {
+    "first_portrait_tag": "VK",
+    "third_portrait_status": "REMOVED",
+    "explicit_rules": [
+      "The tag of the first portrait MUST be changed from 'TRACK 01' / 'track01' to 'VK'.",
+      "The third portrait element MUST be completely removed from the portrait/gallery/hero structure.",
+      "The portfolio must preserve a high-end cassette/tape studio aesthetic with smooth dark mode, neon indicators, track list numbering, and music controls."
+    ]
+  },
+  "typography": {
+    "headline_font": "Outfit / Syne / Space Grotesk / Display Sans",
+    "body_font": "Geist / Inter / JetBrains Mono",
+    "mono_font": "JetBrains Mono / Space Mono",
+    "font_pairing_strategy": "Editorial Retro-Futurism with High-Contrast Monospace details",
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight uppercase",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "subtitle": "text-sm sm:text-base font-mono text-emerald-400 tracking-widest uppercase",
+      "body": "text-sm sm:text-base leading-relaxed text-zinc-300",
+      "caption": "text-xs font-mono text-zinc-500 tracking-wider uppercase"
+    }
+  },
+  "colors": {
+    "background_base": "#0B0C0E",
+    "surface_card": "#13151A",
+    "surface_card_hover": "#1A1D24",
+    "accent_primary": "#10B981",
+    "accent_glow": "rgba(16, 185, 129, 0.25)",
+    "accent_secondary": "#F59E0B",
+    "text_main": "#F3F4F6",
+    "text_muted": "#9CA3AF",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_active": "rgba(16, 185, 129, 0.4)",
+    "badge_red": "#EF4444"
+  },
+  "layout_and_structure": {
+    "header": {
+      "style": "Glassmorphism sticky header with backdrop-blur-xl bg-black/70 border-b border-white/10 z-50",
+      "branding": "VANSH KHADOLIYA • INDEPENDENT SIGNAL",
+      "navigation_links": ["#about", "#journey", "#duo", "#interests", "#code-music", "#connect"],
+      "action_button": "LISTEN NOW / STREAM"
+    },
+    "hero_section": {
+      "headline": "VANSH KHADOLIYA",
+      "subheadline": "Computer Science Student • Rapper • Musician • Creator",
+      "description": "Building with code, expressing through music, and constantly finding new ways to create.",
+      "record_indicator": "REC ● VK",
+      "portrait_gallery_rules": {
+        "portrait_1": {
+          "label_tag": "VK",
+          "tag_badge_class": "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1 text-xs font-mono rounded-full font-bold",
+          "description": "Hero Portrait of Vansh Khadoliya",
+          "image_url": "https://vansh-vibes-visuals.lovable.app/__l5e/assets-v1/0103ba4d-7a7e-4e9e-b857-fcfe78eecc92/vansh-hero.jpg"
+        },
+        "portrait_2": {
+          "label_tag": "THE TWO",
+          "tag_badge_class": "bg-amber-500/20 text-amber-400 border border-amber-500/30 px-3 py-1 text-xs font-mono rounded-full font-bold",
+          "description": "The Two Rap Duo Portrait",
+          "image_url": "https://vansh-vibes-visuals.lovable.app/__l5e/assets-v1/df59db91-0d8b-44fd-9db6-5e00bdd0269b/the-two-portrait.jpg"
+        },
+        "portrait_3": {
+          "status": "REMOVED",
+          "instruction": "DO NOT RENDER A THIRD PORTRAIT CARD. Ensure grid and gallery layouts recalculate to smoothly accommodate exactly 2 main portraits."
+        }
+      }
+    },
+    "sections": [
+      {
+        "id": "about",
+        "title": "(A) · About me — THE ARTIST",
+        "content_blocks": [
+          "Pursuing B.Tech in CS at JECRC University",
+          "Rapper, Flute, Trumpet, Harmonica player",
+          "Head Trumpeter in school band for 5+ years"
+        ]
+      },
+      {
+        "id": "journey",
+        "title": "(B) · Artist Profile — MY MUSICAL JOURNEY",
+        "timeline_items": [
+          "01: 5+ YEARS School Band · Head Trumpeter",
+          "02: RAP ARTIST Individual performances & creative work",
+          "03: THE TWO Member of the rap duo",
+          "04: MULTI-INSTRUMENTALIST Flute · Trumpet · Harmonica"
+        ]
+      },
+      {
+        "id": "duo",
+        "title": "(C) · Featured Duo — THE TWO",
+        "description": "A rap duo built around rhythm, expression, energy, and the love for creating music.",
+        "cta_link": "https://www.instagram.com/officialthetwo_/"
+      },
+      {
+        "id": "interests",
+        "title": "(D) · Frequencies — MUSIC & INTERESTS",
+        "grid_items": ["Rap", "Trumpet", "Flute", "Harmonica", "Technology", "Sports"]
+      },
+      {
+        "id": "code-music",
+        "title": "(E) · Two Worlds — CODE × MUSIC",
+        "interactive_terminal": "Includes live code block with function create(code, music) returning code + music + 'new possibilities'."
+      },
+      {
+        "id": "next-chapter",
+        "title": "(F) · The Next Chapter",
+        "quote": "“अभी में हूँ, अभी कहानी बाकी है।”"
+      },
+      {
+        "id": "connect",
+        "title": "(G) · Final Track — LET'S CONNECT",
+        "social_links": [
+          { "name": "Instagram — VK", "url": "https://www.instagram.com/vvvvvkkkkkkkkkkkkkkkk/" },
+          { "name": "Instagram — The Two", "url": "https://www.instagram.com/officialthetwo_/" },
+          { "name": "LinkedIn — Vansh Khadoliya", "url": "https://www.linkedin.com/in/vansh-khadoliya-189a13434" }
+        ]
+      }
+    ]
+  },
+  "motion_and_interactions": {
+    "scroll_behavior": "Smooth scrolling with subtle parallax effect",
+    "hover_states": "Cards elevate with -translate-y-1, border glow transitions, scale-102 on images",
+    "audio_player_bar": "Fixed floating bottom audio player bar with play/pause toggle, frequency visualizer animation, and track indicator 'VK - Side A'"
+  },
+  "testing_attributes": {
+    "first_portrait_tag": "data-testid='portrait-tag-first'",
+    "portrait_container": "data-testid='portrait-gallery'",
+    "connect_links": "data-testid='social-link-instagram-vk'",
+    "audio_player": "data-testid='global-audio-player'"
+  },
+  "image_urls": [
+    {
+      "category": "hero_portrait",
+      "url": "https://vansh-vibes-visuals.lovable.app/__l5e/assets-v1/0103ba4d-7a7e-4e9e-b857-fcfe78eecc92/vansh-hero.jpg",
+      "tag": "VK",
+      "description": "Primary Vansh Khadoliya portrait with REC VK overlay"
+    },
+    {
+      "category": "duo_portrait",
+      "url": "https://vansh-vibes-visuals.lovable.app/__l5e/assets-v1/df59db91-0d8b-44fd-9db6-5e00bdd0269b/the-two-portrait.jpg",
+      "tag": "THE TWO",
+      "description": "The Two rap duo portrait card"
+    },
+    {
+      "category": "stage_performance",
+      "url": "https://images.unsplash.com/photo-1668890538504-877e118c5750?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "tag": "STAGE",
+      "description": "Live rap performance atmospheric visual"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Replace 'track01' / 'TRACK 01' label on the first portrait card with 'VK' explicitly.",
+    "Remove the 3rd portrait card entirely from the UI so only the 2 main portraits (VK & THE TWO) remain in the gallery/hero grid.",
+    "Ensure all interactive elements have data-testid attributes.",
+    "Build a responsive, modern, dark-themed audio-inspired portfolio matching Vansh Khadoliya's profile."
+  ]
+}
