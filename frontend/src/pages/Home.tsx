@@ -36,11 +36,7 @@ export default function Home() {
     <main data-testid="portfolio-page" className="original-portfolio">
       <header data-testid="portfolio-header" className="site-header">
         <div className="shell header-inner">
-          <div data-testid="header-left-group" className="header-left-group"><a data-testid="header-brand-link" href="#top" className="brand-link" aria-label="Vansh Khadoliya home"><span data-testid="header-brand-mark" className="brand-mark">VK</span><span data-testid="header-brand-name" className="brand-name">VANSH KHADOLIYA</span></a>
-            <nav data-testid="desktop-navigation" className="desktop-navigation">
-              {["home", "about", "music", "team", "journey", "connect"].map((item) => <a data-testid={`nav-link-${item}`} key={item} href={item === "home" ? "#top" : `#${item === "music" ? "interests" : item === "team" ? "duo" : item}`} className="nav-link">{item}</a>)}
-            </nav>
-          </div>
+          <a data-testid="header-brand-link" href="#top" className="brand-link" aria-label="Vansh Khadoliya home"><span data-testid="header-brand-mark" className="brand-mark">VK</span><span data-testid="header-brand-name" className="brand-name">VANSH KHADOLIYA</span></a>
           <a data-testid="header-connect-link" href="#connect" className="header-connect">CONNECT <ArrowUpRight size={13} /></a>
         </div>
       </header>
