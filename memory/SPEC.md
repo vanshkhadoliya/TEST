@@ -2,7 +2,7 @@
 
 ## What it does
 
-Static responsive creative portfolio for Vansh Khadoliya, presenting his music, technology, interests, journey, social links, and a small interactive audio-player-style control.
+Static responsive creative portfolio for Vansh Khadoliya, preserving the original black-and-coral editorial format while presenting his music, technology, interests, journey, social links, and portrait visuals.
 
 ## Data model
 
@@ -13,13 +13,13 @@ Portfolio content is currently defined as local TypeScript constants in `fronten
 - Browse the hero and exactly two portrait cards.
 - Confirm the first portrait tag reads `VK`.
 - Use section navigation to jump between About, Journey, Interests, and Connect.
-- Toggle the visual-only `VK — Side A` player control.
 - Open social links in a new tab.
 
 ## Requested edit state
 
 - First portrait tag changed from `track01` / `TRACK 01` to `VK`.
-- Third portrait removed completely; the gallery renders exactly two portrait cards: VK and THE TWO.
+- Third portrait removed completely; exactly two portrait visuals remain: the hero portrait tagged VK and the duo portrait tagged THE TWO.
+- The page format follows the referenced portfolio: compact header, oversized split hero, editorial section labels, coral accents, black background, and stacked content sections.
 
 ## Auth and roles
 
