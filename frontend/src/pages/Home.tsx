@@ -48,7 +48,6 @@ export default function Home() {
           <p data-testid="hero-subtitle" className="hero-subtitle">Computer Science Student · Rapper · Musician · Creator</p>
           <p data-testid="hero-description" className="hero-description">Building with code, expressing through music, and constantly finding new ways to create.</p>
           <div className="hero-actions"><a data-testid="hero-journey-link" href="#about" className="button button-primary">Explore my journey <ArrowDown size={14} /></a><a data-testid="hero-connect-link" href="#connect" className="button button-secondary">Connect with me <ArrowUpRight size={14} /></a></div>
-          <nav data-testid="hero-navigation-tabs" className="hero-tabs" aria-label="Portfolio sections">{["home", "about", "music", "team", "journey", "connect"].map((item, index) => <a data-testid={`hero-nav-tab-${item}`} key={item} href={item === "home" ? "#top" : `#${item === "music" ? "interests" : item === "team" ? "duo" : item}`} className={index === 0 ? "hero-tab hero-tab-active" : "hero-tab"}>{item}</a>)}</nav>
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.1 }} data-testid="portrait-gallery" className="hero-portrait portrait-frame">
           <img data-testid="portrait-image-first" src="https://vansh-vibes-visuals.lovable.app/__l5e/assets-v1/0103ba4d-7a7e-4e9e-b857-fcfe78eecc92/vansh-hero.jpg" alt="Vansh Khadoliya portrait" />
