@@ -20,6 +20,7 @@ Portfolio content is currently defined as local TypeScript constants in `fronten
 - First portrait tag changed from `track01` / `TRACK 01` to `VK`.
 - Third portrait removed completely; exactly two portrait visuals remain: the hero portrait tagged VK and the duo portrait tagged THE TWO.
 - The page format follows the referenced portfolio: compact header, oversized split hero, editorial section labels, coral accents, black background, and stacked content sections.
+- The final footer signature reads `VK VANSH KHADOLIYA` followed by `A musician who codes.` and the page cursor uses a custom music-disc graphic.
 
 ## Auth and roles
 
