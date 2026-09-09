@@ -23,6 +23,7 @@ Portfolio content is currently defined as local TypeScript constants in `fronten
 - The final footer signature reads `VK VANSH KHADOLIYA` followed by `A musician who codes.` and the page cursor uses a custom music-disc graphic.
 - The opening hero now includes a visible navigation tab row in addition to the sticky header navigation.
 - All navigation bars have been removed from the opening layout; the hero and duo portrait frames use expanded widths.
+- The next-chapter section no longer includes the Hindi quote.
 
 ## Auth and roles
 
