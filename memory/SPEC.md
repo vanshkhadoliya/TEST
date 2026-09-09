@@ -21,6 +21,7 @@ Portfolio content is currently defined as local TypeScript constants in `fronten
 - Third portrait removed completely; exactly two portrait visuals remain: the hero portrait tagged VK and the duo portrait tagged THE TWO.
 - The page format follows the referenced portfolio: compact header, oversized split hero, editorial section labels, coral accents, black background, and stacked content sections.
 - The final footer signature reads `VK VANSH KHADOLIYA` followed by `A musician who codes.` and the page cursor uses a custom music-disc graphic.
+- The opening hero now includes a visible navigation tab row in addition to the sticky header navigation.
 
 ## Auth and roles
 
